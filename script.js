@@ -3,7 +3,7 @@ let Hours = TimeData.getHours();
 
 // 
 // 
-if (Hours <= 13) {
+if (Hours >=6 && Hours <= 13) {
     document.getElementById('greeting').innerHTML="Buongiorno!";
     document.getElementById('greeting').style.color="#853224";
     document.getElementById('body').style.backgroundImage="url(./morningapp.jpg)";
